@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+known_faces/*.jpg
+known_faces/*.png
+known_faces/*.jpeg
+!known_faces/.gitkeep
+test_images/*
+!test_images/.gitkeep
+
+# Output
+output/
+*.mp4
+*.avi
